@@ -192,9 +192,9 @@ export default function Welcome() {
                   </p>
                 </div>
                 <div className="entry-footer mt-5">
-                  <a href="about.html" className="btn gradient-bg mr-2">
+                  <Link to="/about" className="btn gradient-bg mr-2">
                     Read More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -323,7 +323,7 @@ export default function Welcome() {
                         data-to="120"
                         data-speed="2000"
                       ></div>
-                      <div className="counter-k">K</div>
+                      <div className="counter-k"></div>
                     </div>
                     <h3 className="entry-title">Children helped</h3>
                   </div>

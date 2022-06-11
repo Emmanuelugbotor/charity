@@ -33,7 +33,16 @@ a:hover, a:active {
   padding: 20px 0;
   font-size: 12px;
   line-height: 1;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  cursor: pointer;
+ }
+ .header-bar-text{
+  & p{
+    & a{
+      color:#fff;
+    }
+  }
+ }
 
 .header-bar-email a, .header-bar-text span {
   text-transform: lowercase;
@@ -54,7 +63,12 @@ a:hover, a:active {
   line-height: 1;
   color: #fff;
   text-decoration: navajowhite;
-  background: #262222; }
+  background: #262222;
+&:hover{
+  color:#fff;
+  text-decoration: none;
+}
+}
 
 .site-branding {
   width: calc(100% - 24px);
@@ -330,6 +344,7 @@ a:hover, a:active {
   font-weight: 600;
   line-height: 1;
   color: #262626;
+  cursor: pointer;
   outline: none; }
 
 .btn:focus {
@@ -642,7 +657,27 @@ ul.tabs-nav .tab-nav.active {
   width: 64px;
   height: 4px;
   border-radius: 2px;
-  background: #ff5a00; }
+  background: #ff5a00; 
+}
+
+  header.entry-header{
+    & h2.entry-title-new{
+      position:relative;
+      padding-bottom: 24px;
+      font-size: 36px;
+      font-weight: 600;
+      display: inline-block;
+      &::after{
+        position:absolute;
+        content:"";
+        width:50%;
+        height:4px;
+        background: #ff5a00; 
+        right:0;
+        bottom:0;
+      }
+    }
+  }
 
 @media screen and (max-width: 992px) {
   .home-page-events .featured-cause .section-heading {

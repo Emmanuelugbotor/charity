@@ -251,6 +251,49 @@ section.teams {
     .entry-footer.pmx a:nth-child(3), .entry-footer.pmx a:nth-child(4), .entry-footer.pmx a:nth-child(5) {
       color: #ff5a00; }
 
+.entry-content ul li {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin-bottom: 10px; }
+  .entry-content ul li .done {
+    margin-right: 10px;
+    color: #ff5a00; }
+
+.pmxh h1 {
+  background: linear-gradient(to right, #ff5a00, red);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  position: relative;
+  margin-bottom: 10px;
+  padding: 10px 0; }
+  .pmxh h1::after {
+    content: "";
+    width: 80px;
+    height: 2px;
+    position: absolute;
+    background: #151515;
+    left: 0;
+    bottom: 0; }
+
+.pmxh ul li {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px; }
+  .pmxh ul li .done {
+    margin-right: 10px; }
+
+.swiper-fade .swiper-slide {
+  pointer-events: visible !important; }
+
+.row.portfolio-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px; }
+
 body {
   color: #262626;
   font-size: 16px;
@@ -284,7 +327,11 @@ a:hover, a:active {
   padding: 20px 0;
   font-size: 12px;
   line-height: 1;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  cursor: pointer; }
+
+.header-bar-text p a {
+  color: #fff; }
 
 .header-bar-email a, .header-bar-text span {
   text-transform: lowercase;
@@ -306,6 +353,9 @@ a:hover, a:active {
   color: #fff;
   text-decoration: navajowhite;
   background: #262222; }
+  .donate-btn a:hover {
+    color: #fff;
+    text-decoration: none; }
 
 .site-branding {
   width: calc(100% - 24px);
@@ -566,6 +616,7 @@ a:hover, a:active {
   font-weight: 600;
   line-height: 1;
   color: #262626;
+  cursor: pointer;
   outline: none; }
 
 .btn:focus {
@@ -877,6 +928,21 @@ ul.tabs-nav .tab-nav.active {
   height: 4px;
   border-radius: 2px;
   background: #ff5a00; }
+
+header.entry-header h2.entry-title-new {
+  position: relative;
+  padding-bottom: 24px;
+  font-size: 36px;
+  font-weight: 600;
+  display: inline-block; }
+  header.entry-header h2.entry-title-new::after {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 4px;
+    background: #ff5a00;
+    right: 0;
+    bottom: 0; }
 
 @media screen and (max-width: 992px) {
   .home-page-events .featured-cause .section-heading {

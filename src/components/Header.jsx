@@ -22,7 +22,7 @@ export default function Header() {
                 </div>
                 <div className="header-bar-text">
                   <p>
-                    PHONE: <span>+234 809 439 6178 </span>
+                    PHONE: <a href="tel:+2348094396178">+234 809 439 6178</a>
                   </p>
                 </div>
               </div>
@@ -56,7 +56,7 @@ export default function Header() {
                       <Link to="/about">About us</Link>
                     </li>
                     <li>
-                      <a href="#our-causes">Causes</a>
+                      <a href="/#our-causes">Causes</a>
                     </li>
                     <li>
                       <Link to="/gallery">Gallery</Link>
@@ -66,7 +66,7 @@ export default function Header() {
                     </li>
 
                     <li>
-                      <a href="#Contact">Contact</a>
+                      <a href="/#Contact">Contact</a>
                     </li>
                   </ul>
                 </nav>

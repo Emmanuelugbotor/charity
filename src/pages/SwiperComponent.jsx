@@ -5,6 +5,7 @@ import "swiper/modules/navigation/navigation.scss";
 import "swiper/modules/effect-fade/effect-fade.scss";
 import "swiper/modules/thumbs/thumbs.min.css";
 import { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
+import { Link } from "react-router-dom";
 
 export default function SwiperComponent() {
   return (
@@ -48,12 +49,12 @@ export default function SwiperComponent() {
                           <p>Help children your donation impact lives</p>
                         </div>
                         <footer className="entry-footer d-flex flex-wrap align-items-center mt-5">
-                          <a href="#" className="btn gradient-bg mr-2">
+                          <a href="#" className="btn pmxs gradient-bg mr-2">
                             Donate Now
                           </a>
-                          <a href="#" className="btn orange-border">
+                          <Link to="/about" className="btn pmxs orange-border">
                             Read More
-                          </a>
+                          </Link>
                         </footer>
                       </div>
                     </div>
@@ -84,12 +85,12 @@ export default function SwiperComponent() {
                           </p>
                         </div>
                         <footer className="entry-footer d-flex flex-wrap align-items-center mt-5">
-                          <a href="#" className="btn gradient-bg mr-2">
+                          <a href="#" className="btn pmxs gradient-bg mr-2">
                             Donate Now
                           </a>
-                          <a href="#" className="btn orange-border">
+                          <Link to="/about" className="btn pmxs orange-border">
                             Read More
-                          </a>
+                          </Link>
                         </footer>
                       </div>
                     </div>
@@ -119,12 +120,12 @@ export default function SwiperComponent() {
                           </p>
                         </div>
                         <footer className="entry-footer d-flex flex-wrap align-items-center mt-5">
-                          <a href="#" className="btn gradient-bg mr-2">
+                          <a href="#" className="btn pmxs gradient-bg mr-2">
                             Donate Now
                           </a>
-                          <a href="#" className="btn orange-border">
+                          <Link to="/about" className="btn pmxs orange-border">
                             Read More
-                          </a>
+                          </Link>
                         </footer>
                       </div>
                     </div>
