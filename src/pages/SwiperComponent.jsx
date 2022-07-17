@@ -34,7 +34,7 @@ export default function SwiperComponent() {
             <SwiperSlide>
               <div className="swiper-slide hero-content-wrap">
                 <img
-                  src="images/xhero.jpg.pagespeed.ic.UlXoS3GVLR.jpg"
+                  src="images/kj3.jpeg"
                   alt=""
                 />
                 <div className="hero-content-overlay position-absolute w-100 h-100">
@@ -65,7 +65,7 @@ export default function SwiperComponent() {
             <SwiperSlide>
               <div className="swiper-slide hero-content-wrap">
                 <img
-                  src="images/xcause-3.jpg.pagespeed.ic.NFC0pYYQ9n.jpg"
+                  src="images/kj2.jpeg"
                   alt=""
                 />
 
@@ -101,7 +101,7 @@ export default function SwiperComponent() {
             <SwiperSlide>
               <div className="swiper-slide hero-content-wrap">
                 <img
-                  src="images/xcause-2.jpg.pagespeed.ic.YJwyjrjHNt.jpg"
+                  src="images/kj1.jpeg"
                   alt=""
                 />
                 <div className="hero-content-overlay position-absolute w-100 h-100">

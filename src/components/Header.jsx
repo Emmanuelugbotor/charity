@@ -14,8 +14,8 @@ export default function Header() {
           <div className="container">
             <div className="row flex-wrap justify-content-center justify-content-lg-between align-items-lg-center">
               <div className="col-12 col-lg-8 d-none d-md-flex flex-wrap justify-content-center justify-content-lg-start mb-3 mb-lg-0">
-                <div className="header-bar-email">
-                  MAIL:{" "}
+                {/* <div className="header-bar-email">
+                  MAIL:
                   <a href="mailto:contact@Kejibaus.com">
                     <span className="__cf_email__">contact@Kejibaus.com</span>
                   </a>
@@ -24,7 +24,7 @@ export default function Header() {
                   <p>
                     PHONE: <a href="tel:+2348094396178">+234 809 439 6178</a>
                   </p>
-                </div>
+                </div> */}
               </div>
               <div className="col-12 col-lg-4 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center">
                 <div className="donate-btn">
@@ -39,12 +39,20 @@ export default function Header() {
             <div className="row">
               <div className="col-12 d-flex flex-wrap justify-content-between align-items-center container-pmx">
                 <div className="site-branding d-flex align-items-center">
-                  <Link to="/" className="d-block" href="#" rel="home">
+                  <Link
+                    to="/"
+                    className="d-block"
+                    href="#"
+                    rel="home"
+                    style={{ width: "100px", height: "100px" }}
+                  >
                     <img
                       className="d-block"
-                      src="images/xlogo.png.pagespeed.ic.jje9n1Rfdy.png"
+                      src="images/logs.jpeg"
                       alt="logo"
+                      style={{  height: "100px" }}
                     />
+                  
                   </Link>
                 </div>
                 <nav className="site-navigation d-flex justify-content-end align-items-center">

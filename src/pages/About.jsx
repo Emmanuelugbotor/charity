@@ -43,7 +43,7 @@ export default function About() {
                       really be the engine room of the society whilist they are
                       useful to themselves and contributing the social changes
                       and development to the society at large. At Kejibaus Youth
-                      Development Initiative, our work include but are not
+                      Development Initiative (KYDI), our work include but are not
                       limited to environmental, social, advocacy and human
                       rights work.
                     </p>
@@ -101,7 +101,7 @@ export default function About() {
                     <p>
                       Since 2012, we have gained the support of people all
                       across the world and in particular, the United Nations.
-                      Kejibaus Youth Development Initiative was granted Special
+                      Kejibaus Youth Development Initiative (KYDI) was granted Special
                       Consultative Status with the Economic and Social Council
                       (ECOSOC) of the United Nations in 2012. After being
                       nominated as an observer organization to the United

@@ -5,8 +5,7 @@ import Home from './pages/Home';
 import Teams from './pages/Teams';
 import About from './pages/About';
 import Gallery from './pages/Gallery';
-
-
+import SocialsM from './components/social';
 
 function App() {
   return (

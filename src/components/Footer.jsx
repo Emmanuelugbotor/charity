@@ -14,9 +14,14 @@ export default function Footer() {
             <div class="col-12 col-md-6 col-lg-3">
               <div class="foot-about">
                 <h2>
-                  <a class="foot-logo" href="#">
+                  <a
+                    class="foot-logo"
+                    href="#"
+                    style={{ width: "100px", height: "100px" }}
+                  >
                     <img
-                      src="images/xfoot-logo.png.pagespeed.ic.QzKNgHQNJQ.png"
+                      style={{ width: "100%", height: "100%" }}
+                      src="images/log.jpeg"
                       alt=""
                     />
                   </a>

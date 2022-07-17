@@ -172,7 +172,10 @@ export default function Welcome() {
             <div className="col-12 col-lg-6 order-2 order-lg-1">
               <div className="welcome-content">
                 <header className="entry-header">
-                  <h2 className="entry-title">Welcome to Kejibaus</h2>
+                  <h2 className="entry-title">
+                    {" "}
+                    Welcome to Kejibaus Youth Development Initiative (KYDi)
+                  </h2>
                 </header>
                 <div className="entry-content mt-5">
                   <p>
@@ -188,7 +191,7 @@ export default function Welcome() {
                     be the engine room of the society whilist they are useful to
                     themselves and contributing the social changes and
                     development to the society at large. At Kejibaus Youth
-                    Development Initiative, our work include.....
+                    Development Initiative (KYDI), our work include.....
                   </p>
                 </div>
                 <div className="entry-footer mt-5">
@@ -199,10 +202,7 @@ export default function Welcome() {
               </div>
             </div>
             <div className="col-12 col-lg-6 mt-4 order-1 order-lg-2">
-              <img
-                src="images/xwelcome.jpg.pagespeed.ic.LXrOlcwqMA.jpg"
-                alt="welcome"
-              />
+              <img src="images/welcome.jpeg" alt="welcome" />
             </div>
           </div>
         </div>
@@ -383,12 +383,9 @@ export default function Welcome() {
                   <h2 className="entry-title">Our Contacts </h2>
                 </div>
                 <div className="event-wrap d-flex flex-wrap justify-content-between">
-                  <figure className="m-0">
-                    <img
-                      src="images/xevent-1.jpg.pagespeed.ic.26MJsWIQIP.jpg"
-                      alt=""
-                    />
-                  </figure>
+                  {/* <figure className="m-0">
+                    <img src="images/con.jpeg" alt="" />
+                  </figure> */}
                   <div className="event-content-wrap">
                     <header className="entry-header d-flex flex-wrap align-items-center">
                       <h3 className="entry-title w-100 m-0">
@@ -403,17 +400,14 @@ export default function Welcome() {
                       </p>
                     </div>
                     <div className="entry-footer">
-                      <a href="mailto:usa@kejibause.org">usa@kejibause.org</a>
+                      <a href="mailto:usa@kejibaus.org">usa@kejibaus.org</a>
                     </div>
                   </div>
                 </div>
                 <div className="event-wrap d-flex flex-wrap justify-content-between">
-                  <figure className="m-0">
-                    <img
-                      src="images/xevent-2.jpg.pagespeed.ic.6oz4s-K6rF.jpg"
-                      alt=""
-                    />
-                  </figure>
+                  {/* <figure className="m-0">
+                    <img src="images/con.jpeg" alt="" />
+                  </figure> */}
                   <div className="event-content-wrap">
                     <header className="entry-header d-flex flex-wrap align-items-center">
                       <h3 className="entry-title w-100 m-0">
@@ -435,12 +429,9 @@ export default function Welcome() {
                   </div>
                 </div>
                 <div className="event-wrap d-flex flex-wrap justify-content-between">
-                  <figure className="m-0">
-                    <img
-                      src="images/xevent-3.jpg.pagespeed.ic.B6srRzSCfu.jpg"
-                      alt=""
-                    />
-                  </figure>
+                  {/* <figure className="m-0">
+                    <img src="images/con.jpeg" alt="" />
+                  </figure> */}
                   <div className="event-content-wrap">
                     <header className="entry-header d-flex flex-wrap align-items-center">
                       <h3 className="entry-title w-100 m-0">
@@ -469,40 +460,40 @@ export default function Welcome() {
               <div className="featured-cause">
                 <div className="section-heading"></div>
                 <div className="cause-wrap d-flex flex-wrap justify-content-between">
-                  <figure className="m-0">
+                  {/* <figure className="m-0">
                     <img
                       src="images/xfeatured-causes.jpg.pagespeed.ic.yeVYLszSKo.jpg"
                       alt=""
                     />
-                  </figure>
+                  </figure> */}
                   <div className="cause-content-wrap">
                     <header className="entry-header d-flex flex-wrap align-items-center">
                       <h3 className="entry-title w-100 m-0">
-                        <a href="#">Head-Quarter</a>
+                        <a href="#">Headquarters</a>
                       </h3>
                     </header>
                     <div className="entry-content">
                       <p className="m-0">
-                        no. 15 alakure street, akure. ondo state. Nigeria.
+                        No 15 Alakunre street, Akure. Ondo State. Nigeria.
                       </p>
                     </div>
                     <div className="entry-footer mt-5 pmx">
                       <a href="tel:0809 439 6178">(+234)-809 439 6178</a>
                       <a href="tel:0705 142 3895">(+234)-705 142 3895</a>
                       <a
-                        style={{ color: "#ff3600!important" }}
-                        href="mailto:president@kejibause.org"
+                        style={{ color: "green !important" }}
+                        href="mailto:president@kejibaus.org"
                       >
-                        president@kejibause.org{" "}
+                        president@kejibaus.org{" "}
                       </a>
                       <a
-                        style={{ color: "#ff3600!important" }}
+                        style={{ color: "green !important" }}
                         href="mailto:nigeria@kejibaus.org"
                       >
                         nigeria@kejibaus.org
                       </a>
                       <a
-                        style={{ color: "#ff3600!important" }}
+                        style={{ color: "green !important" }}
                         href="mailto:kejibaus@yahoo.com"
                       >
                         kejibaus@yahoo.com
